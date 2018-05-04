@@ -52,5 +52,26 @@ git reset --hard HEAD^
 
 还原到上n个版本;
 
+9.分支操作;
+
+9.1
+   分支的创建,删除及查看;
+
+   git branch 分支名(dev日期+姓名);
+   git branch -d 分支名;
+   git branch -a 查看所有分支;	
+
+9.2切换分支;
+
+  git checkout 分支名;
+
+10.远程仓库的设置；
+
+git remote add 源的名称(origin) 仓库地址;
+
+11.本地仓库推送到远程仓库;
+
+git push -u 源的名称(origin) 分支名称(master);
+
 
 
